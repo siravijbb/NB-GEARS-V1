@@ -7,7 +7,6 @@
   <Navbar />
     
     <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl">
-        <h1 class="Header text-9xl text-center pt-10">NB GEARS</h1>
         <img src="/pic.webp" class="s3 max-w-screen-lg mx-auto pb-10 rounded-3xl" alt="me"   />
         <p>     I am an failure analysis engineer, Who looking for new challanges from past experience from sattlelite PCB to a new challenges. In web programing, I'm currently learning web technologies with using some experience with coding in school.
                 Also when I had free time, I am a maker who made phototype of things that I wanted to combine to reduce size, Over the past 3 years,<br>I have been hosting server as additional hobby which made me familar with networking. <br>And also I owned scooter for using in Bangkok for reducing and precise timing in life schedual.</p>
