@@ -24,7 +24,7 @@
           </a>
         </div>
         <div class="mx-4 h-6 sm:h-8 border-l-2 border-gray-300" />
-        <p>© {new Date().getFullYear()} Phumrapee Limpianchop</p>
+        <p>© {new Date().getFullYear()} Siravij Praevisavakij</p>
       </footer>
 
     <style>
