@@ -3,7 +3,7 @@
 		<nav class=" bg-base-100 rounded-2xl shadow-lg">	
 	<div class="flex justify-between max-w-screen-xl mx-auto">
 		<div class="flex items-center space-x-28">
-				<h1 class="Header text-xl item-center py-5">NB GEARS</h1>
+				<h1 class="Header text-xl item-center py-5">NB&nbsp;GEARS</h1>
 		</div>
 		<div class="container flex flex-wrap items-center justify-between mx-auto">
 			<a href="#" class="flex items-center">
