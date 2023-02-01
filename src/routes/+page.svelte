@@ -1,11 +1,12 @@
 <script>
   import Navbar from './components/navbar.svelte';
+  
 </script>
   
 
 <div class="warper mx-4 ">
   <Navbar />
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl">
         <img src="/pic.webp" class="s3 mx-auto pb-10 rounded-3xl" alt="me"   />
         <p>     I am an failure analysis engineer, Who looking for new challanges from past experience from sattlelite PCB to a new challenges. In web programing, I'm currently learning web technologies with using some experience with coding in school.
@@ -24,6 +25,7 @@
         </div>
         <div class="mx-4 h-6 sm:h-8 border-l-2 border-gray-300" />
         <p>© {new Date().getFullYear()} Siravij Praevisavakij</p>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
       </footer>
 
     <style>
