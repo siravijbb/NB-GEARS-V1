@@ -4,13 +4,12 @@
 </script>
   
 
-<div class="warper mx-4 ">
+<div class="bg-gray-500	shadow-lg">
   <Navbar />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl">
-        <img src="/pic.webp" class="s3 mx-auto pb-10 rounded-3xl" alt="me"   />
-        <p>     I am an failure analysis engineer, Who looking for new challanges from past experience from sattlelite PCB to a new challenges. In web programing, I'm currently learning web technologies with using some experience with coding in school.
-                Also when I had free time, I am a maker who made phototype of things that I wanted to combine to reduce size, Over the past 3 years,<br>I have been hosting server as additional hobby which made me familar with networking. <br>And also I owned scooter for using in Bangkok for reducing and precise timing in life schedual.</p>
+        <img src="/sample.jpg" class="s3 object-scale-down mx-auto pb-10 rounded-3xl" alt="me"   />
+        <p>     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </main>
 
     </div>
@@ -24,7 +23,7 @@
           </a>
         </div>
         <div class="mx-4 h-6 sm:h-8 border-l-2 border-gray-300" />
-        <p>© {new Date().getFullYear()} Siravij Praevisavakij</p>
+        <p>© {new Date().getFullYear()} NB GEARS</p>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
       </footer>
 
