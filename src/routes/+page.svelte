@@ -2,6 +2,7 @@
   import Navbar from './components/navbar.svelte';
   
 </script>
+
   
 
 <div class="bg-gray-500	shadow-lg">
