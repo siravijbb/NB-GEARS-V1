@@ -45,31 +45,31 @@ function showSlides() {
 }
 }
         </script>
-        <div class="mySlides fade  ">
+        <div class="mySlides fade w-auto h-auto object-center	">
           <div class="numbertext">2 / 4</div>
           <img src="/12.jpg" style="">
           <div class="text">Caption Two</div>
         </div>
       
-        <div class="mySlides fade">
+        <div class="mySlides fade w-auto h-auto object-center	">
           <div class="numbertext">3 / 4</div>
           <img src="/16.jpg" style="">
           <div class="text">Caption Three</div>
         </div>
-        <div class="mySlides fade">
+        <div class="mySlides fade w-auto h-auto object-center	">
           <div class="numbertext">4 / 4</div>
           <img src="/14.jpg" style="">
           <div class="text">Caption Two</div>
         </div>
-        <div class="mySlides fade center display: inline-block;">
+        <div class="mySlides fade w-auto h-auto object-center	">
           <div class="numbertext flex">4 / 4</div>
-          <img src="/15.jpg" style="max-height: 500px 
+          <img src="/15.jpg" style=";
           ">
           <div class="text">Caption Two</div>
         </div>
-        <div class="mySlides fade flex center display: inline-block;">
+        <div class="mySlides fade w-auto h-auto object-center	">
           <div class="numbertext">4 / 4</div>
-          <img src="/13.jpg" style="max-height: 500px
+          <img src="/13.jpg" style=";
           ">
           <div class="text">Caption Two</div>
         </div>
@@ -82,7 +82,13 @@ function showSlides() {
       
       <!-- The dots/circles -->
 
-        <p>     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p>     <b>For Inspiration and Recognition of Science and Technology (FIRST)</b> is and international youth organization that operates different levels of Robotics competitions from elementary through high school.
+          <br>
+          <br><b>FIRST</b> Robotics is open to elementary through high school students and combines the excitement of sport with the science and technology. <b>FIRST</b> commonly calls its competitions the Ultimate Sport for the Mind.
+          <br>
+          <br>A couple of other phrases used by <b>FIRST</b> participants are “the hardest fun you’ll ever have” and “the only high school sport where every kid can go pro.”
+          <br>
+          <br>Looking ahead to life after high school, the students that participate in <b>FIRST</b> gain access to millions of dollars in scholarships made by available by colleges, universities and corporations who support <b>FIRST</b>.
     </main>
 
     </div>
@@ -108,7 +114,7 @@ function showSlides() {
     }
     .Maincon{
             
-        font-size: 1.875rem;
+        font-size: 1rem;
             max-width: 1280px ;
             margin: 40px auto;
     }
@@ -117,11 +123,16 @@ function showSlides() {
  
 
 .slideshow-container {
-  width:  500px;
-  height: 500px;
-  position: relative;
-  margin: auto;
-  object-fit:scale-down;
+  position: static;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .mySlides {
