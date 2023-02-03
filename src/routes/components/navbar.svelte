@@ -4,9 +4,9 @@
 	<div class="max-w-7xl mx-auto my-6 px-4 md:px-6">
 		<nav class=" bg-base-100 rounded-2xl shadow-lg">	
 	<div class="flex justify-between max-w-screen-xl mx-auto">
-		<div class="flex items-center py-5 space-x-28">
-			<h1><h1 class="text-xl font-bold  max-w-7xl">NB&nbsp;GEARS</h1>
-			<h2 class="text-sm text-left  max-w-7xl">NORTH&nbsp;BANGKOK&nbsp;GEEKS&nbsp;ENGINEERING&nbsp;AWESOME&nbsp;ROBOTIC&nbsp;SOLUTIONS</h2>
+		<div class="flex items-center space-x-28 py-5">
+			<h1><h1 class="text-xl font-bold  min-w-1xs">NB&nbsp;GEARS</h1>
+			<h2 class="text-sm text-left   min-text-2xs	">NORTH&nbsp;BANGKOK GEEKS&nbsp;ENGINEERING AWESOME&nbsp;ROBOTIC&nbsp;SOLUTIONS</h2>
 			</h1>
 		</div>
 		<div class="container flex flex-wrap items-center justify-between mx-auto">
@@ -32,5 +32,6 @@
 		  </div>	  
 		</div>
 	
+		
 </div>
 </nav>
