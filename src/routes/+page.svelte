@@ -8,8 +8,80 @@
 <div class="bg-gray-500	shadow-lg">
   <Navbar />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
-    <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl">
-        <img src="/sample.jpg" class="s3 object-scale-down mx-auto pb-10 rounded-3xl" alt="me"   />
+    <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl ">
+      
+      <div class="slideshow-container object-scale-down">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade ">
+          <div class="numbertext ">1 / 4</div>
+          <img src="/11.jpg" style="">
+          <div class="text">Caption Text</div>
+        </div>
+       <script>
+          let slideIndex = 1;
+showSlides(slideIndex);
+
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+}
+        </script>
+        <div class="mySlides fade  ">
+          <div class="numbertext">2 / 4</div>
+          <img src="/12.jpg" style="">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="/16.jpg" style="">
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="/14.jpg" style="">
+          <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade center display: inline-block;">
+          <div class="numbertext flex">4 / 4</div>
+          <img src="/15.jpg" style="max-height: 500px 
+          ">
+          <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade flex center display: inline-block;">
+          <div class="numbertext">4 / 4</div>
+          <img src="/13.jpg" style="max-height: 500px
+          ">
+          <div class="text">Caption Two</div>
+        </div>
+        
+      <br>
+        <!-- Next and previous buttons -->
+
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+
         <p>     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </main>
 
@@ -40,5 +112,111 @@
             max-width: 1280px ;
             margin: 40px auto;
     }
-    </style>
-    
+    * {box-sizing:border-box}
+
+ 
+
+.slideshow-container {
+  width:  500px;
+  height: 500px;
+  position: relative;
+  margin: auto;
+  object-fit:scale-down;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style>

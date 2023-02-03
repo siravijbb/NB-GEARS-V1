@@ -24,7 +24,7 @@
                 </p>
               
                     <div class=" align-items: center; Maincon">
-                    <iframe  width="100%" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ92n5kZ6b4jAR7VYFdJYtz6I&key=AIzaSyCBbvQRlTEnbpx6UJ_udyTf7mSZlrtp3aE"></iframe>
+                    <iframe title="Location Map" width="100%" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ92n5kZ6b4jAR7VYFdJYtz6I&key=AIzaSyCBbvQRlTEnbpx6UJ_udyTf7mSZlrtp3aE"></iframe>
                   </div>
                 </div>
             
