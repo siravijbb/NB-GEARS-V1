@@ -10,10 +10,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl ">
       
-      <div class="slideshow-container object-scale-down">
+      <div class="slideshow-container object-scale-down h-full w-auto">
 
         <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade ">
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
           <div class="numbertext ">1 / 4</div>
           <img src="/11.jpg" style="">
           <div class="text">Caption Text</div>
@@ -45,29 +45,29 @@ function showSlides() {
 }
 }
         </script>
-        <div class="mySlides fade w-auto h-auto object-center	">
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
           <div class="numbertext">2 / 4</div>
           <img src="/12.jpg" style="">
           <div class="text">Caption Two</div>
         </div>
       
-        <div class="mySlides fade w-auto h-auto object-center	">
+        <div class="mySlides fade object-cover  w-960 object-scale-down	">
           <div class="numbertext">3 / 4</div>
           <img src="/16.jpg" style="">
           <div class="text">Caption Three</div>
         </div>
-        <div class="mySlides fade w-auto h-auto object-center	">
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
           <div class="numbertext">4 / 4</div>
           <img src="/14.jpg" style="">
           <div class="text">Caption Two</div>
         </div>
-        <div class="mySlides fade w-auto h-auto object-center	">
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
           <div class="numbertext flex">4 / 4</div>
           <img src="/15.jpg" style=";
           ">
           <div class="text">Caption Two</div>
         </div>
-        <div class="mySlides fade w-auto h-auto object-center	">
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
           <div class="numbertext">4 / 4</div>
           <img src="/13.jpg" style=";
           ">

@@ -1,6 +1,6 @@
 
 
-<nav class=" top-0 w-full  mx-auto navbar bg-gray-900 rounded-2xl shadow-lg text-white max-w-7xl ">
+<nav class=" top-0 w-full  mx-auto navbar bg-gray-900 rounded-2xl shadow-lg text-white max-w-7xl min-w-sm">
 	<div class="max-w-7xl mx-auto my-6 px-4 md:px-6">
 		<nav class=" bg-base-100 rounded-2xl shadow-lg">	
 	<div class="flex justify-between max-w-screen-xl mx-auto">
@@ -32,6 +32,6 @@
 		  </div>	  
 		</div>
 	
-		
+
 </div>
 </nav>
