@@ -22,7 +22,6 @@
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
 		"siema": "^1.5.1",
-		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.5",
@@ -34,6 +33,7 @@
 	"dependencies": {
 		"@jridgewell/sourcemap-codec": "^1.4.14",
 		"flowbite": "^1.6.3",
-		"flowbite-react": "^0.3.8"
+		"flowbite-react": "^0.3.8",
+		"svelte": "^3.55.1"
 	}
 }
