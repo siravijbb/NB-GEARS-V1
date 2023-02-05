@@ -6,7 +6,7 @@
 	<div class="flex justify-between max-w-screen-xl mx-auto">
 		<div class="flex items-center space-x-28 py-5">
 			<h1><h1 class="text-xl font-bold  min-w-1xs">NB&nbsp;GEARS</h1>
-			<h2 class="text-l text-left   min-text-2xs	">NORTH&nbsp;BANGKOK GEEKS&nbsp;ENGINEERING AWESOME&nbsp;ROBOTIC&nbsp;SOLUTIONS</h2>
+			<h2 class="text-sm text-left   min-text-2xs	">NORTH&nbsp;BANGKOK GEEKS&nbsp;ENGINEERING AWESOME&nbsp;ROBOTIC&nbsp;SOLUTIONS</h2>
 			</h1>
 		</div>
 		<div class="container flex flex-wrap items-center justify-between mx-auto">

@@ -1,46 +1,88 @@
-
-
 <script>
   import Navbar from './components/navbar.svelte';
- 
+  
+</script>
 
   
 
-  import Carousel from './Carousel.svelte';
-
-  const images = [
-    './11.jpg',
-    './12.jpg',
-    './13.jpg',
-    './14.jpg',
-    './15.jpg',
-    './16.jpg',
-  ];
-</script>
-
-
-
-
-
-<div class="bg-gray-500	shadow-lg ">
+<div class="bg-gray-500	shadow-lg">
   <Navbar />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl ">
-      <Carousel class="carousel-container s3 Maincon py-4	 object-scale-down mx-auto pb-10 rounded-3xl" autoplay="5000">
-  {#each images as image, index (index)}
-    <img class="object-cover object-scale-down center" src={image} />
-  {/each}
-  <span slot="left-control">Left</span>
-  <span slot="right-control">Right</span>
-</Carousel>
+      
+      <div class="slideshow-container object-scale-down h-full w-auto">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
+          <div class="numbertext ">1 / 4</div>
+          <img src="/11.jpg" style="">
+          <div class="text">Caption Text</div>
+        </div>
+       <script>
+          let slideIndex = 1;
+showSlides(slideIndex);
 
 
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
+function showSlides(n) {
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+}
+        </script>
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
+          <div class="numbertext">2 / 4</div>
+          <img src="/12.jpg" style="">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade object-cover  w-960 object-scale-down	">
+          <div class="numbertext">3 / 4</div>
+          <img src="/16.jpg" style="">
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
+          <div class="numbertext">4 / 4</div>
+          <img src="/14.jpg" style="">
+          <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
+          <div class="numbertext flex">4 / 4</div>
+          <img src="/15.jpg" style=";
+          ">
+          <div class="text">Caption Two</div>
+        </div>
+        <div class="mySlides fade object-cover  w-960 object-scale-down">
+          <div class="numbertext">4 / 4</div>
+          <img src="/13.jpg" style=";
+          ">
+          <div class="text">Caption Two</div>
+        </div>
         
+      <br>
+        <!-- Next and previous buttons -->
+
+      </div>
+      <br>
       
       <!-- The dots/circles -->
 
-        <p class="py-4	">     <b>For Inspiration and Recognition of Science and Technology (FIRST)</b> is and international youth organization that operates different levels of Robotics competitions from elementary through high school.
+        <p>     <b>For Inspiration and Recognition of Science and Technology (FIRST)</b> is and international youth organization that operates different levels of Robotics competitions from elementary through high school.
           <br>
           <br><b>FIRST</b> Robotics is open to elementary through high school students and combines the excitement of sport with the science and technology. <b>FIRST</b> commonly calls its competitions the Ultimate Sport for the Mind.
           <br>
@@ -72,36 +114,120 @@
     }
     .Maincon{
             
-        font-size: 1.5rem;
+        font-size: 1rem;
             max-width: 1280px ;
             margin: 40px auto;
     }
     * {box-sizing:border-box}
 
-    div2 {
-		height: 950rem;
-		width: 950rem;
-    
-	}
-	
-	span2 {
-		display: inline-block;
-		margin-top: 10rem;
-	}
-   img2 {
-    height: auto;
-    max-width: 720px;
-  }
-  
-  span {
-    display: inline-flexbox;
-    margin-top: 40px;
-    margin: 40px auto;
-  }
-  .carousel-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+ 
 
+.slideshow-container {
+  position: static;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 </style>
