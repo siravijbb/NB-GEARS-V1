@@ -26,6 +26,7 @@
   <Navbar />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl ">
+      
       <Carousel class="carousel-container s3 Maincon py-4	 object-scale-down mx-auto pb-10 rounded-3xl" autoplay="5000">
   {#each images as image, index (index)}
     <img class="object-cover object-scale-down center" src={image} />
@@ -40,7 +41,9 @@
       
       <!-- The dots/circles -->
 
-        <p class="py-4	">     <b>For Inspiration and Recognition of Science and Technology (FIRST)</b> is and international youth organization that operates different levels of Robotics competitions from elementary through high school.
+        <p class="py-4	">     
+          <br>
+          <b>For Inspiration and Recognition of Science and Technology (FIRST)</b> is and international youth organization that operates different levels of Robotics competitions from elementary through high school.
           <br>
           <br><b>FIRST</b> Robotics is open to elementary through high school students and combines the excitement of sport with the science and technology. <b>FIRST</b> commonly calls its competitions the Ultimate Sport for the Mind.
           <br>

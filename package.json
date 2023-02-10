@@ -36,7 +36,7 @@
 		"@jridgewell/sourcemap-codec": "^1.4.14",
 		"flowbite": "^1.6.3",
 		"flowbite-react": "^0.3.8",
-		"svelte": "^3.55.1"
+		"svelte": "^3.55.1",
+		"vite-plugin-ssr": "^0.4.77"
 	}
-	
 }
