@@ -5,8 +5,8 @@
 		<nav class=" bg-base-100 rounded-2xl shadow-lg">	
 	<div class="flex justify-between max-w-screen-xl mx-auto">
 		<div class="flex items-center space-x-28 py-5">
-			<h1><h1 class="text-xl font-bold  min-w-1xs">NB&nbsp;GEARS</h1>
-			<h2 class="text-sm text-left   min-text-2xs	">NORTH&nbsp;BANGKOK GEEKS&nbsp;ENGINEERING AWESOME&nbsp;ROBOTIC&nbsp;SOLUTIONS</h2>
+			<a href="/"><h1><img src="NR_Gear_logo_white.png" class=" max-h-20  items-center  " alt="NORTH BANGKOK GEEKS ENGINEERING AWESOME ROBOTIC SOLUTIONS" />
+			<a/>
 			</h1>
 		</div>
 		<div class="container flex flex-wrap items-center justify-between mx-auto">
@@ -19,7 +19,7 @@
 				  <a href="/" 							class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent" aria-current="page">Home</a>
 				</li>
 				<li>
-					<a href="#" 						class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">FIRST Robotics Competition Thailand</a>
+					<a href="#" 						class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About Us</a>
 				  </li>
 				  <li>
 					<a href="https://first.ncresa.org/" class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Our Parrents Teams!</a>

@@ -76,17 +76,17 @@
 	import Siema from 'siema'
 	import { onMount, createEventDispatcher } from 'svelte'
 	
-	export let perPage = 1
+	export let perPage = 2
 	export let loop = true
 	export let autoplay = 1
-	export let duration = 5000
+	export let duration = 500
 	export let easing = 'ease-out'
 	export let startIndex = 0
 	export let draggable = true
 	export let multipleDrag = true	
 	export let dots = true	
 	export let controls = true
-	export let threshold = 20
+	export let threshold = 5000
 	export let rtl = false
 	let currentIndex = startIndex;
 	
