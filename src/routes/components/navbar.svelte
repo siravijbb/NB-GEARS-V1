@@ -20,13 +20,13 @@
 				  <a href="/" 							class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent" aria-current="page">Home</a>
 				</li>
 				<li>
-					<a href="/About" 						class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About Us</a>
+					<a href="/about-us" 						class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About Us</a>
 				  </li>
 				  <li>
 					<a href="https://first.ncresa.org/" class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Our Parrents Teams!</a>
 				  </li>
 				<li>
-				  <a href="/Contact" 					class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Contact us</a>
+				  <a href="/contact-us" 					class="block py-2 pl-3 pr-4 text-white-700 border-b border-gray-600 hover:bg-gray-600 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 dark:hover:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Contact us</a>
 				</li>
 			  </ul>
 			</div>
