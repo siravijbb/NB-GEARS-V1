@@ -4,7 +4,8 @@
   </script>
     
     <div class="bg-gray-500	shadow-lg  ">
-        <Navbar />
+      <title>NB GEARS - Contact us</title>  
+      <Navbar />
           <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
           <main class=" box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl Bigcon">
               

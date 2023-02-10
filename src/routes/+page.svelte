@@ -23,6 +23,7 @@
 
 
 <div class="bg-gray-500	shadow-lg ">
+  <title>NB GEARS - Home</title>
   <Navbar />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl ">
