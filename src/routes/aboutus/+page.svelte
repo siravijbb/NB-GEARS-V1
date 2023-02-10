@@ -12,7 +12,7 @@
             <div class="" style="Bigcon object-scale-down mx-auto pb-10 rounded-3xl ">
                 <h1 class="text-5xl margin: 40px; Bigcon">About Us</h1>
                 <img src="NR_Gear_logo_white.png" class="w-full md:block md:w-auto flex items-center space-x-28 p-5 bg-gray-900 rounded-2xl" alt="NORTH BANGKOK GEEKS ENGINEERING AWESOME ROBOTIC SOLUTIONS" />
-                <p class="Maincon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our story began by Mr.Punroon who was veteran member of NC&nbsp;GEARS, He was paticipated in FTC 2021 which he has a dream of FTC Team in thailand in our school</p>
+                <p class="Maincon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our story began by Mr.Punroon who was veteran member of NC&nbsp;GEARS, He was paticipated in FTC 2021 which he has a dream of FTC Team in thailand in our school.</p>
 
               
                     
