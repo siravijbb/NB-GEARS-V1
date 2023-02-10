@@ -3,10 +3,10 @@
 		<slot></slot>
 	</div>
 	{#if controls}
-	  <button class="left" on:click={left} use:resetInterval={autoplay} aria-label="left">
+	  <button class="left  bg-neutral-900 hover:bg-gray-400 text-white font-bold  rounded-l" on:click={left} use:resetInterval={autoplay} aria-label="<">
 		  <slot name="left-control"></slot>
 	  </button>
-	  <button class="right" on:click={right} use:resetInterval={autoplay} aria-label="right">
+	  <button class="right bg-neutral-900 hover:bg-gray-400 text-white font-bold  rounded-l" on:click={right} use:resetInterval={autoplay} aria-label=">">
 		  <slot name="right-control"></slot>
 	  </button>
 	{/if}
@@ -29,13 +29,12 @@
 	
 	button {
 		position: absolute;
-		width: 40px;
-		height: 40px;
+		font-size: 2rem;
 		top: 50%;
 		z-index: 50;
 		margin-top: -20px;
 		border: none;
-		background-color: transparent;
+		
 	}
   button:focus {
     outline: none;

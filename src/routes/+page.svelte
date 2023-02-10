@@ -30,8 +30,8 @@
   {#each images as image, index (index)}
     <img class="object-cover object-scale-down center" src={image} />
   {/each}
-  <span slot="left-control">Left</span>
-  <span slot="right-control">Right</span>
+  <span slot="left-control">&lt;</span>
+  <span slot="right-control">&gt;</span>
 </Carousel>
 
 
