@@ -11,19 +11,13 @@ const config = {
 	plugins: [forms, typography]
 };
 module.exports = {
-
-    plugins: [
-        require('flowbite/plugin')
-    ]
-
-}
+	plugins: [require('flowbite/plugin')]
+};
 module.exports = {
-
-    content: [
-        // ...
-        'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
-    ]
-
-}
+	content: [
+		// ...
+		'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+	]
+};
 
 module.exports = config;
