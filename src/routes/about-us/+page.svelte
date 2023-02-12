@@ -10,7 +10,7 @@
 		href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css"
 		rel="stylesheet"
 	/>
-	<main class=" box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl Bigcon">
+	<main class=" box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl Bigcon warper">
 		<div class="" style="Bigcon object-scale-down mx-auto pb-10 rounded-3xl ">
 			<h1 class="text-5xl margin: 40px; Bigcon">About Us</h1>
 			<img
@@ -28,7 +28,81 @@
 				the guidance into starting a proper team. Our team's name, "NB GEARS: stands for "North
 				Bangkok Geeks Engineering Awesome Robotic Solutions" similar to our advising team.
 			</p>
-		</div>
+			<h1 class="text-5xl margin: 40px; Bigcon">Our Team Members</h1>
+			<div class="Maincon">
+				<div class="flex flex-wrap justify-between">
+					<div class="w-25% md:w-1/3 lg:w-1/4 p-4 ">
+					<a href="#punroon">
+						<div class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden" id="punroon">
+							<img class="w-full h-56 object-fit object-left" src="punroon.jpg" alt="avatar" />
+							<div class="p-4">
+								<h1 class="text-xl font-bold">Punroon Rarngrit</h1>
+								<p class="text-gray-700 text-base">Founder of NB GEARS</p>
+							</div>
+						</div>
+					</a>
+					</div>
+					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+						<a href="#siravij">
+						<div class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden" id="siravij">
+							<img class="w-full h-56 object-fit object-center" src="siravij.webp" alt="avatar" />
+							<div class="p-4">
+								<h1 class="text-xl font-bold">Siravij Praevisavakij</h1>
+								<p class="text-gray-700 text-base">PCB Engineer of NB GEARS</p>
+							</div>
+						</div>
+						</a>
+					</div>
+
+					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+						<a href="#Chayachon">
+						<div class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  " id="Chayachon">
+							<img class="w-full h-56 object-fit object-right" src="Chayachon.jpg" alt="avatar" />
+							<div class="p-4">
+								<h1 class="text-xl font-bold">Chayachon Sa-ardiem</h1>
+								<p class="text-gray-700 text-base">Head of Marketing at NB GEARS</p>
+							</div>
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class="Maincon">
+					<div class="flex flex-wrap justify-between">
+						<div class="w-25% md:w-1/3 lg:w-1/4 p-4 ">
+						<a href="#kittichok">
+							<div class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  " id="kittichok">
+								<img class="w-full h-56 object-fit object-left" src="Kittichok.jpg" alt="avatar" />
+								<div class="p-4">
+									<h1 class="text-xl font-bold">Kittichok Pattanapa</h1>
+									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
+								</div>
+							</div>
+						</a>
+						</div>
+						<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+							<a href="#Jiradchai">
+							<div class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  " id="Jiradchai">
+								<img class="w-full h-56 object-fit object-center" src="Jiradchai.jpg" alt="avatar" />
+								<div class="p-4">
+									<h1 class="text-xl font-bold">Jiradchai Srirattanawong</h1>
+									<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
+								</div>
+							</div>
+							</a>
+						</div>
+	
+						<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+							<a href="#Panatorn">
+							<div class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  " id="Panatorn">
+								<img class="w-full h-56 object-fit object-right" src="Panatorn.jpg" alt="avatar" />
+								<div class="p-4">
+									<h1 class="text-xl font-bold">Panatorn Ponpet</h1>
+									<p class="text-gray-700 text-base">Marketing at NB GEARS</p>
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
 	</main>
 </div>
 <Footer />
