@@ -29,8 +29,8 @@
 				Bangkok Geeks Engineering Awesome Robotic Solutions" similar to our advising team.
 			</p>
 			<h1 class="text-5xl margin: 40px; Bigcon">Our Team Members</h1>
-			<div class="Maincon">
-				<div class="flex flex-wrap justify-between">
+			<div class="Maincon ">
+				<div class="flex flex-wrap justify-between min-h-1/3">
 					<div class="w-25% md:w-1/3 lg:w-1/4 p-4 ">
 						<a href="#punroon">
 							<div
@@ -39,28 +39,28 @@
 							>
 								<img class="w-full h-56 object-fit object-left" src="punroon.jpg" alt="avatar" />
 								<div class="p-4">
-									<h1 class="text-xl font-bold">Punroon Rarngrit</h1>
+									<h1 class="text-lg	 font-bold">Punroon Rarngrit</h1>
 									<p class="text-gray-700 text-base">Founder of NB GEARS</p>
 								</div>
 							</div>
 						</a>
 					</div>
 					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
-						<a href="#siravij">
+						<a href="https://github.com/siravijbb">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden"
 								id="siravij"
 							>
 								<img class="w-full h-56 object-fit object-center" src="siravij.webp" alt="avatar" />
 								<div class="p-4">
-									<h1 class="text-xl font-bold">Siravij Praevisavakij</h1>
+									<h1 class="text-lg	 font-bold">Siravij Praevisavakij</h1>
 									<p class="text-gray-700 text-base">PCB Engineer of NB GEARS</p>
 								</div>
 							</div>
 						</a>
 					</div>
 
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+					<div class="w-25% md:w-1/4  lg:w-1/4 p-4">
 						<a href="#Chayachon">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
@@ -68,8 +68,8 @@
 							>
 								<img class="w-full h-56 object-fit object-right" src="Chayachon.jpg" alt="avatar" />
 								<div class="p-4">
-									<h1 class="text-xl font-bold">Chayachon Sa-ardiem</h1>
-									<p class="text-gray-700 text-base">Head of Marketing at NB GEARS</p>
+									<h1 class="text-lg	 font-bold">Chayachon Sa-ardiem</h1>
+									<p class="text-gray-700 text-base">Lead Marketing at NB GEARS</p>
 								</div>
 							</div>
 						</a>
@@ -83,7 +83,7 @@
 							>
 								<img class="w-full h-56 object-fit object-left" src="Kittichok.jpg" alt="avatar" />
 								<div class="p-4">
-									<h1 class="text-xl font-bold">Kittichok Pattanapa</h1>
+									<h1 class="text-lg	font-bold">Kittichok Pattanapa</h1>
 									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
 								</div>
 							</div>
@@ -101,8 +101,12 @@
 									alt="avatar"
 								/>
 								<div class="p-4">
-									<h1 class="text-xl font-bold">Jiradchai Srirattanawong</h1>
-									<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
+									<h1 class="text-lg">
+										<h1 class="text-xl	 font-bold">
+											Jiradchai <h1 class="Movcon  inline">Srirattanawong</h1>
+										</h1>
+										<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
+									</h1>
 								</div>
 							</div>
 						</a>
@@ -170,5 +174,8 @@
 	.Bigcon {
 		max-width: 1280px;
 		margin: 40px auto;
+	}
+	.Movcon {
+		font-size: 0.96rem;
 	}
 </style>
