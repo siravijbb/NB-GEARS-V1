@@ -34,8 +34,11 @@
 	"type": "module",
 	"dependencies": {
 		"@jridgewell/sourcemap-codec": "^1.4.14",
+		"@popperjs/core": "^2.11.6",
+		"classnames": "^2.3.2",
 		"flowbite": "^1.6.3",
 		"flowbite-react": "^0.3.8",
+		"flowbite-svelte": "^0.30.4",
 		"svelte": "^3.55.1",
 		"vite-plugin-ssr": "^0.4.77"
 	}
