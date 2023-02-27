@@ -1,4 +1,5 @@
 <script>
+	
 	import {
 		Button,
 		Dropdown,
@@ -45,4 +46,5 @@
 	  <NavLi class="text-gray-500" href="/pricing">Pricing</NavLi>-->
 		<NavLi class="text-gray-500" href="/contact-us">Contact</NavLi>
 	</NavUl>
+	<script src="https://siravijbbpage.statuspage.io/embed/script.js"></script>
 </Navbar>
