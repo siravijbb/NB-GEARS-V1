@@ -46,5 +46,5 @@
 	  <NavLi class="text-gray-500" href="/pricing">Pricing</NavLi>-->
 		<NavLi class="text-gray-500" href="/contact-us">Contact</NavLi>
 	</NavUl>
-	<script src="https://siravijbbpage.statuspage.io/embed/script.js"></script>
+	<script src="https://nbgears.statuspage.io/embed/script.js"></script>
 </Navbar>
