@@ -66,22 +66,7 @@
 
 					<p>We aim to be prepared for every situation posted in the unforeseeable future.</p>
 				</div>
-				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
-					<h2 class="text-center font-bold ">Work as a team, think as a team.</h2>
 
-					<p>
-						A team cannot operate without a team, and an effective team needs to be open-minded and
-						creative in their own ways.
-					</p>
-				</div>
-				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
-					<h2 class="text-center font-bold ">Think logically!</h2>
-
-					<p>
-						We care about being right and it often takes reasoning from first principles to get
-						there.
-					</p>
-				</div>
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 py-4">
