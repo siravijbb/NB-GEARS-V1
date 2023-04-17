@@ -39,7 +39,7 @@
 		</p>
 		<h2 class="text-center"><b>Key Values</b></h2>
 		<div class="py-4">
-			<div class="grid grid-cols-2 gap-4 ">
+			<div class="grid sm:grid-cols-1 md:grid-cols-2 gap-4 ">
 				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
 					<h2 class="text-center font-bold">Work as a team, think as a team.</h2>
 
