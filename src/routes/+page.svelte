@@ -16,11 +16,11 @@
 	/>
 	<main class="Maincon box-border bg-gray-300 m4 rounded-xl p-4 shadow-xl ">
 		<Carousel
-			class="carousel-container s3 Maincon py-4	 object-scale-down mx-auto pb-10 rounded-3xl"
+			class="carousel-container s3 Maincon py-4 object-scale-down mx-auto pb-10 rounded-3xl"
 			autoplay="5000"
 		>
 			{#each images as image, index (index)}
-				<img class="object-cover object-scale-down center" src={image} />
+				<img class="object-cover object-scale-down center mx-auto  max-h-96" src={image} />
 			{/each}
 			<span slot="left-control">&lt;</span>
 			<span slot="right-control">&gt;</span>
@@ -30,21 +30,77 @@
 
 		<p class="py-4	">
 			<br />
-			<b>For Inspiration and Recognition of Science and Technology (FIRST)</b> is and international
-			youth organization that operates different levels of Robotics competitions from elementary
-			through high school.
+			<b>Our Mission</b> To expose the students around the area on STEM and to reveal the hidden
+			talents of each person.
 			<br />
-			<br /><b>FIRST</b> Robotics is open to elementary through high school students and combines
-			the excitement of sport with the science and technology. <b>FIRST</b> commonly calls its
-			competitions the Ultimate Sport for the Mind.
+			<br /><b>Our Vision</b> Our vision is to show the capability of Thai engineering at its best
+			and emphasize the creativity of our members.
 			<br />
-			<br />A couple of other phrases used by <b>FIRST</b> participants are “the hardest fun you’ll
-			ever have” and “the only high school sport where every kid can go pro.”
-			<br />
-			<br />Looking ahead to life after high school, the students that participate in <b>FIRST</b>
-			gain access to millions of dollars in scholarships made by available by colleges, universities
-			and corporations who support <b>FIRST</b>.
 		</p>
+		<h2 class="text-center"><b>Key Values</b></h2>
+		<div class="py-4">
+			<div class="grid grid-cols-2 gap-4 ">
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold">Work as a team, think as a team.</h2>
+
+					<p>
+						A team cannot operate without a team, and an effective team needs to be open-minded and
+						creative in their own ways.
+					</p>
+				</div>
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold ">Think logically!</h2>
+
+					<p>
+						We care about being right and it often takes reasoning from first principles to get
+						there.
+					</p>
+				</div>
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold ">Gracious professionalism</h2>
+
+					<p>A slogan by the FIRST robotic. The pinnacle of being a good player.</p>
+				</div>
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold ">Situational flexibility</h2>
+
+					<p>We aim to be prepared for every situation posted in the unforeseeable future.</p>
+				</div>
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold ">Work as a team, think as a team.</h2>
+
+					<p>
+						A team cannot operate without a team, and an effective team needs to be open-minded and
+						creative in their own ways.
+					</p>
+				</div>
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold ">Think logically!</h2>
+
+					<p>
+						We care about being right and it often takes reasoning from first principles to get
+						there.
+					</p>
+				</div>
+			</div>
+
+			<div class="grid grid-cols-1 gap-4 py-4">
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold">Optimism</h2>
+
+					<p class="text-center">
+						We had already won at the moment we are at the field. <br />
+						By just being in the competition, we had already won the grand prize of the competition,
+						experiences.
+					</p>
+				</div>
+				<div class="bg-gray-200 p-4 rounded-xl hover:bg-gray-400">
+					<h2 class="text-center font-bold">The true meaning</h2>
+
+					<p class="text-center">“Once a GEARS always a GEARS.”, NC GEARS.</p>
+				</div>
+			</div>
+		</div>
 	</main>
 </div>
 <Footer />
@@ -85,5 +141,6 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		
 	}
 </style>

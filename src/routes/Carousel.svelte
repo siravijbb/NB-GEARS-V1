@@ -2,7 +2,7 @@
 	import Siema from 'siema';
 	import { onMount, createEventDispatcher } from 'svelte';
 
-	export let perPage = 2;
+	export let perPage = 1;
 	export let loop = true;
 	export let autoplay = 1;
 	export let duration = 500;

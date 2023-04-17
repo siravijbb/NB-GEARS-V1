@@ -1,5 +1,4 @@
 <script>
-	
 	import {
 		Button,
 		Dropdown,
