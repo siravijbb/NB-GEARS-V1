@@ -29,15 +29,15 @@
 				Bangkok Geeks Engineering Awesome Robotic Solutions" similar to our advising team.
 			</p>
 			<h1 class="text-5xl margin: 40px; Bigcon">Our Team Members</h1>
-			<div class="Maincon ">
-				<div class="flex flex-wrap justify-between min-h-1/3">
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4 ">
+			<div class="Maincon  grid sm:grid-cols-2 lg:grid-cols-4  gap-4 ">
+				
+					<div class="">
 						<a href="#punroon">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden"
 								id="punroon"
 							>
-								<img class="w-full h-56 object-fit object-left" src="punroon.jpg" alt="avatar" />
+								<img class="w-auto sm:h-24 md:h-56 mx-auto   " src="punroon.jpg" alt="avatar" />
 								<div class="p-4">
 									<h1 class="text-lg	 font-bold">Punroon Rarngrit</h1>
 									<p class="text-gray-700 text-base">Founder of NB GEARS</p>
@@ -45,13 +45,13 @@
 							</div>
 						</a>
 					</div>
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+					<div class="">
 						<a href="https://github.com/siravijbb">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden"
 								id="siravij"
 							>
-								<img class="w-full h-56 object-fit object-center" src="siravij.webp" alt="avatar" />
+								<img class="w-auto sm:h-24 md:h-56 mx-auto" src="siravij.webp" alt="avatar" />
 								<div class="p-4">
 									<h1 class="text-lg	 font-bold">Siravij Praevisavakij</h1>
 									<p class="text-gray-700 text-base">PCB Engineer of NB GEARS</p>
@@ -60,13 +60,13 @@
 						</a>
 					</div>
 
-					<div class="w-25% md:w-1/4  lg:w-1/4 p-4">
+					<div class="">
 						<a href="#Chayachon">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="Chayachon"
 							>
-								<img class="w-full h-56 object-fit object-right" src="Chayachon.jpg" alt="avatar" />
+								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="Chayachon.jpg" alt="avatar" />
 								<div class="p-4">
 									<h1 class="text-lg	 font-bold">Chayachon Sa-ardiem</h1>
 									<p class="text-gray-700 text-base">Lead Marketing at NB GEARS</p>
@@ -75,13 +75,13 @@
 						</a>
 					</div>
 
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4 ">
+					<div class="">
 						<a href="#kittichok">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="kittichok"
 							>
-								<img class="w-full h-56 object-fit object-left" src="Kittichok.jpg" alt="avatar" />
+								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="Kittichok.jpg" alt="avatar" />
 								<div class="p-4">
 									<h1 class="text-lg	font-bold">Kittichok Pattanapa</h1>
 									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
@@ -89,14 +89,14 @@
 							</div>
 						</a>
 					</div>
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+					<div class="">
 						<a href="#Jiradchai">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="Jiradchai"
 							>
 								<img
-									class="w-full h-56 object-fit object-center"
+									class="w-auto  sm:h-24 md:h-56 mx-auto "
 									src="Jiradchai.jpg"
 									alt="avatar"
 								/>
@@ -112,13 +112,13 @@
 						</a>
 					</div>
 
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+					<div class="">
 						<a href="#Panatorn">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="Panatorn"
 							>
-								<img class="w-full h-56 object-fit object-right" src="Panatorn.jpg" alt="avatar" />
+								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="Panatorn.jpg" alt="avatar" />
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Panatorn Ponpet</h1>
 									<p class="text-gray-700 text-base">Marketing at NB GEARS</p>
@@ -126,13 +126,13 @@
 							</div>
 						</a>
 					</div>
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+					<div class="">
 						<a href="#patis">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden"
 								id="patis"
 							>
-								<img class="w-full h-56 object-fit object-center" src="patis.jpg" alt="avatar" />
+								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="patis.jpg" alt="avatar" />
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Patis Jatupornjarus</h1>
 									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
@@ -141,13 +141,13 @@
 						</a>
 					</div>
 
-					<div class="w-25% md:w-1/3 lg:w-1/4 p-4">
+					<div class="">
 						<a href="#jullawat">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="jullawat"
 							>
-								<img class="w-full h-56 object-fit object-right" src="jullawat.jpg" alt="avatar" />
+								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="jullawat.jpg" alt="avatar" />
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Jullawat Sinsiri</h1>
 									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
@@ -155,9 +155,9 @@
 							</div>
 						</a>
 					</div>
-				</div>
+				
 			</div>
-		</div>
+
 	</main>
 </div>
 <Footer />
