@@ -28,6 +28,7 @@
 				the guidance into starting a proper team. Our team's name, "NB GEARS: stands for "North
 				Bangkok Geeks Engineering Awesome Robotic Solutions" similar to our advising team.
 			</p>
+		<div class="bg-gray-300"></div>
 			<h1 class="text-5xl margin: 40px; Bigcon">Our Team Members</h1>
 			<div class="Maincon  grid sm:grid-cols-2 lg:grid-cols-4  gap-4 ">
 				

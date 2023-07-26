@@ -7,7 +7,7 @@
 	const images = ['./11.jpg', './12.jpg', './13.jpg', './14.jpg', './15.jpg', './16.jpg'];
 </script>
 
-<div class="bg-gray-500	shadow-lg ">
+<div class="bg-gray-500	shadow-lg md:pb-20">
 	<title>NB GEARS - Home</title>
 	<Navbar />
 	<link
