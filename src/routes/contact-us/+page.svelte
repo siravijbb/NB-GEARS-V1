@@ -15,15 +15,9 @@
 			<h1 class="text-5xl margin: 40px; Bigcon">Contact us Via</h1>
 			<p class="Maincon">
 				<br />Email:
-				<a href="mailto:Siravij.P@nbgears.tech" class="text-blue-700">Siravij.P@nbgears.tech</a>
+				<a href="mailto:contact@nbgears.tech" class="text-blue-700">Contact@nbgears.tech</a>
 			</p>
-			<p class="Maincon">
-				Facebook: <a href="https://www.facebook.com/SRBSiravijbb/" class="text-blue-700"
-					>Siravij Praevisavakij</a
-				>
-			</p>
-			<p class="Maincon">Discord: <a href="" class="text-blue-700">Siravijbb#3787</a></p>
-			<br />
+
 			<p class="Maincon">
 				Locations<br />
 				KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK <br />
@@ -41,7 +35,7 @@
 					style="border:0"
 					loading="lazy"
 					allowfullscreen
-					src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ92n5kZ6b4jAR7VYFdJYtz6I&key=AIzaSyCBbvQRlTEnbpx6UJ_udyTf7mSZlrtp3aE"
+					src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23E67C73&ctz=Asia%2FBangkok&showNav=0&showTitle=0&showDate=0&showTabs=0&showPrint=0&showTz=0&showCalendars=1&src=c2lyYXZpamJiQGdtYWlsLmNvbQ&src=OGJkY2ZlMjA0Mjk4NWUwZDE4YzMwOGQ3YTI4M2E3ZWZjNTRiYTI3N2UwNzRiMTEyZjkzNmRkMjM0MDhmN2MyNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%237CB342"
 				/>
 			</div>
 		</div>
