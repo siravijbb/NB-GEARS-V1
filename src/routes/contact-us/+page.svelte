@@ -35,7 +35,7 @@
 					style="border:0"
 					loading="lazy"
 					allowfullscreen
-					src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23E67C73&ctz=Asia%2FBangkok&showNav=0&showTitle=0&showDate=0&showTabs=0&showPrint=0&showTz=0&showCalendars=1&src=c2lyYXZpamJiQGdtYWlsLmNvbQ&src=OGJkY2ZlMjA0Mjk4NWUwZDE4YzMwOGQ3YTI4M2E3ZWZjNTRiYTI3N2UwNzRiMTEyZjkzNmRkMjM0MDhmN2MyNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%237CB342"
+					src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ92n5kZ6b4jAR7VYFdJYtz6I&key=AIzaSyCBbvQRlTEnbpx6UJ_udyTf7mSZlrtp3aE"
 				/>
 			</div>
 		</div>
