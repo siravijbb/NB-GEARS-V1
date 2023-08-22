@@ -4,7 +4,7 @@
 
 	import Carousel from './Carousel.svelte';
 
-	const images = ['./11.jpg', './12.jpg', './13.jpg', './14.jpg', './15.jpg', './16.jpg'];
+	const images = ['./1.jpg', './2.jpg', './3.jpg', './4.jpg', './5.jpg', './6.jpg'];
 </script>
 
 <div class="bg-gray-500	shadow-lg md:pb-20">
@@ -20,7 +20,7 @@
 			autoplay="5000"
 		>
 			{#each images as image, index (index)}
-				<img class="object-cover object-scale-down center mx-auto  max-h-96" src={image} />
+				<img class=" center mx-auto  max-h-96" src={image} />
 			{/each}
 			<span slot="left-control">&lt;</span>
 			<span slot="right-control">&gt;</span>
@@ -66,7 +66,6 @@
 
 					<p>We aim to be prepared for every situation posted in the unforeseeable future.</p>
 				</div>
-
 			</div>
 
 			<div class="grid grid-cols-1 gap-4 py-4">
@@ -126,6 +125,5 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		
 	}
 </style>

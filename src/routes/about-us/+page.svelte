@@ -28,17 +28,18 @@
 				the guidance into starting a proper team. Our team's name, "NB GEARS: stands for "North
 				Bangkok Geeks Engineering Awesome Robotic Solutions" similar to our advising team.
 			</p>
-		<div class="bg-gray-300"></div>
-			<h1 class="text-5xl margin: 40px; Bigcon">Our Team Members</h1>
-			<div class="Maincon  grid sm:grid-cols-2 lg:grid-cols-4  gap-4 ">
-				
+			<div class="bg-gray-300">
+				<h1 class="text-5xl margin: 40px; Bigcon">Our Team Members</h1>
+				<div class="Maincon  grid sm:grid-cols-2 lg:grid-cols-4  gap-4 ">
 					<div class="">
 						<a href="#punroon">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden"
 								id="punroon"
 							>
-								<img class="w-auto sm:h-24 md:h-56 mx-auto   " src="punroon.jpg" alt="avatar" />
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="punroon.jpg" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-lg	 font-bold">Punroon Rarngrit</h1>
 									<p class="text-gray-700 text-base">Founder of NB GEARS</p>
@@ -47,12 +48,14 @@
 						</a>
 					</div>
 					<div class="">
-						<a href="https://github.com/siravijbb">
+						<a href="https://siravijbb.me">
 							<div
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden"
 								id="siravij"
 							>
-								<img class="w-auto sm:h-24 md:h-56 mx-auto" src="siravij.webp" alt="avatar" />
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="siravij.webp" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-lg	 font-bold">Siravij Praevisavakij</h1>
 									<p class="text-gray-700 text-base">PCB Engineer of NB GEARS</p>
@@ -67,7 +70,9 @@
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="Chayachon"
 							>
-								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="Chayachon.jpg" alt="avatar" />
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="Chayachon.jpg" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-lg	 font-bold">Chayachon Sa-ardiem</h1>
 									<p class="text-gray-700 text-base">Lead Marketing at NB GEARS</p>
@@ -82,7 +87,9 @@
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="kittichok"
 							>
-								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="Kittichok.jpg" alt="avatar" />
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="Kittichok.jpg" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-lg	font-bold">Kittichok Pattanapa</h1>
 									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
@@ -96,16 +103,12 @@
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="Jiradchai"
 							>
-								<img
-									class="w-auto  sm:h-24 md:h-56 mx-auto "
-									src="Jiradchai.jpg"
-									alt="avatar"
-								/>
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="Jiradchai.jpg" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-lg">
-										<h1 class="text-xl	 font-bold">
-											Jiradchai <h1 class="Movcon  inline">Srirattanawong</h1>
-										</h1>
+										<h1 class="text-xl	 font-bold">Jiradchai Srirattanawong</h1>
 										<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
 									</h1>
 								</div>
@@ -119,10 +122,12 @@
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="Panatorn"
 							>
-								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="Panatorn.jpg" alt="avatar" />
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="Panatorn.jpg" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Panatorn Ponpet</h1>
-									<p class="text-gray-700 text-base">Marketing at NB GEARS</p>
+									<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
 								</div>
 							</div>
 						</a>
@@ -133,7 +138,9 @@
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden"
 								id="patis"
 							>
-								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="patis.jpg" alt="avatar" />
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="patis.jpg" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Patis Jatupornjarus</h1>
 									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
@@ -148,7 +155,9 @@
 								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
 								id="jullawat"
 							>
-								<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="jullawat.jpg" alt="avatar" />
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="jullawat.jpg" alt="avatar" />
+								</div>
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Jullawat Sinsiri</h1>
 									<p class="text-gray-700 text-base">Coding Engineer of NB GEARS</p>
@@ -156,9 +165,41 @@
 							</div>
 						</a>
 					</div>
-				
+					<div class="">
+						<a href="#ARTIT">
+							<div
+								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
+								id="jullawat"
+							>
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto p-4" src="favicon.png" alt="avatar" />
+								</div>
+								<div class="p-4">
+									<h1 class="text-xl font-bold">Artit mekchaidee</h1>
+									<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="">
+						<a href="#SUTHINAN">
+							<div
+								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
+								id="jullawat"
+							>
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto p-4" src="favicon.png" alt="avatar" />
+								</div>
+								<div class="p-4">
+									<h1 class="text-xl font-bold">Suthinan boonpian</h1>
+									<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
 			</div>
-
+		</div>
 	</main>
 </div>
 <Footer />
