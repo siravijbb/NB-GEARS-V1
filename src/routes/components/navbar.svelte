@@ -35,6 +35,7 @@
 
 		<Dropdown offset="18" class=" bg-gray-800 divide-y ">
 			<DropdownItem class="text-gray-500 " href="/about-us">Our team</DropdownItem>
+			<DropdownItem class="text-gray-500 " href="https://blog.nbgears.tech/">Our blog</DropdownItem>
 			<!--  <DropdownItem class="text-gray-500">Settings</DropdownItem>
 		<DropdownItem class="text-gray-500">Earnings</DropdownItem> -->
 			<DropdownItem class="text-gray-500 bg-gray-800 pt-4 " href="https://first.ncresa.org/"
