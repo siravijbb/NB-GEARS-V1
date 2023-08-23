@@ -15,7 +15,7 @@
 </script>
 
 <Navbar
-	class="max-w-7xl mx-auto my-6 px-4 md:px-6  bg-base-100 rounded-2xl shadow-lg flex justify-between max-w-screen-xl mx-auto bg-gray-900 text-white"
+	class="max-w-7xl mx-auto my-6 px-4 md:px-6  bg-base-100 rounded-2xl shadow-lg flex justify-between bg-gray-900 text-white"
 	let:hidden
 	let:toggle
 >
