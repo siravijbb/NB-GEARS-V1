@@ -172,7 +172,7 @@
 								id="jullawat"
 							>
 								<div class="bg-gray-500">
-									<img class="w-auto  sm:h-24 md:h-56 mx-auto p-4" src="favicon.png" alt="avatar" />
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto" src="artit.jpg" alt="avatar" />
 								</div>
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Artit mekchaidee</h1>
@@ -188,11 +188,61 @@
 								id="jullawat"
 							>
 								<div class="bg-gray-500">
-									<img class="w-auto  sm:h-24 md:h-56 mx-auto p-4" src="favicon.png" alt="avatar" />
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto " src="suthinan.jpg" alt="avatar" />
 								</div>
 								<div class="p-4">
 									<h1 class="text-xl font-bold">Suthinan boonpian</h1>
 									<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="">
+						<a href="#SUTHINAN">
+							<div
+								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
+								id="jullawat"
+							>
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto p-4" src="favicon.png" alt="avatar" />
+								</div>
+								<div class="p-4">
+									<h1 class="text-xl font-bold">Prasertsak Tiawongsombat</h1>
+									<p class="text-gray-700 text-base">Advisor of NB GEARS</p>
+								</div>
+							</div>
+						</a>
+					</div>	
+					<div class="">
+						<a href="#SUTHINAN">
+							<div
+								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
+								id="jullawat"
+							>
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto p-4" src="favicon.png" alt="avatar" />
+								</div>
+								<div class="p-4">
+									<h1 class="text-xl font-bold">James Barstow</h1>
+									<p class="text-gray-700 text-base">Advisor of NB GEARS</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="">
+						<a href="#Jiradchai">
+							<div
+								class="hover:shadow-2xl bg-white hover:bg-neutral-200 shadow-lg rounded-lg overflow-hidden  "
+								id="Jiradchai"
+							>
+								<div class="bg-gray-500">
+									<img class="w-auto  sm:h-24 md:h-56 mx-auto p-4" src="favicon.png" alt="avatar" />
+								</div>
+								<div class="p-4">
+									<h1 class="text-lg">
+										<h1 class="text-xl	 font-bold">Satit Owatchaiphong</h1>
+										<p class="text-gray-700 text-base">Marketing Teams of NB GEARS</p>
+									</h1>
 								</div>
 							</div>
 						</a>
